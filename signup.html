@@ -1,0 +1,51 @@
+<!-- 
+Lucas Eberhard
+Henry Kang
+Web Programming - CMPSCI 3010
+4/10/18
+-->
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="./style.css" rel="stylesheet" type="text/css">
+	<title>Register - poorly drawn things</title>
+</head>
+<body id="registration">
+<header>
+	<h1>poorly drawn things</h1>
+	<hr>
+	<nav>
+		<a href="index.html" id="indnav">Home</a>
+		<a href="gallery.html" id="galnav">Gallery</a>
+		<a href="game.html" id="gamenav">Memory Game</a>
+		<a href="signin.html" id="regnav">Sign In</a>
+		<a href="contact.html" id="connav">Contact</a>
+	</nav>
+	<hr>
+</header>
+<br><br><br>
+<br>
+	<div>Enter your account information below to register.<./div>
+	<br><br><br>
+	<form id="register" action="" onsubmit="" method="get">
+		<label>First name: <input type="text" name="firstName" maxlength="35" onblur="firstNameTest()" required></label><span class="label"> *</span><br><br>
+		<label>Last name: <input type="text" name="lastName" maxlength="35" onblur="lastNameTest()" required></label><span class="label"> *</span><br><br>
+		<label>Email address: <input type="text" name="email" maxlength="35" required></label><span class="label"> *</span><br><br>
+		<label>Confirm email address: <input type="text" name="email2" maxlength="35" onblur="emailTest()" required></label><span class="label"> *</span><br><br>
+		<label>Password: <input type="password" name="pwd" maxlength="35" required></label><span class="label"> *</span><br><br>
+		<label>Confirm password: <input type="password" name="pwd2" maxlength="35" onblur="pwdTest()" required></label><span class="label"> *</span><br><br>
+		<br>
+		<input class="regbuttons" type="reset" value="Reset fields">
+		<input class="regbuttons" type="submit" value="Register account">
+	</form>
+	<br><br>
+<br><br><br>
+<footer>
+	<br><hr>
+	<div>&copy; 2018 Lucas Eberhard</div>
+	<br>
+</footer>
+</body>
+</html>

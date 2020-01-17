@@ -1,0 +1,45 @@
+<!-- 
+Lucas Eberhard
+Henry Kang
+Web Programming - CMPSCI 3010
+4/10/18
+-->
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="./style.css" rel="stylesheet" type="text/css">
+	<title>Sign In - poorly drawn things</title>
+</head>
+<body id="signin">
+<header>
+	<h1>poorly drawn things</h1>
+	<hr>
+	<nav>
+		<a href="index.html" id="indnav">Home</a>
+		<a href="gallery.html" id="galnav">Gallery</a>
+		<a href="game.html" id="gamenav">Memory Game</a>
+		<a href="signin.html" id="regnav">Sign In</a>
+		<a href="contact.html" id="connav">Contact</a>
+	</nav>
+	<hr>
+</header>
+<br><br><br>
+<br>
+	<form id="in" action="signin.php" method="post">
+		<label>Email address: <input type="text" name="email" maxlength="35" required></label><span class="label"> *</span><br><br>
+		<label>Password: <input type="password" name="pwd" maxlength="35" required></label><span class="label"> *</span><br><br>
+		<br>
+		<input class="regbuttons" type="reset" value="Reset fields">
+		<input class="regbuttons" type="submit" value="Sign In">
+	</form>
+	<br><br>
+<br><br><br>
+<footer>
+	<br><hr>
+	<div>&copy; 2018 Lucas Eberhard</div>
+	<br>
+</footer>
+</body>
+</html>

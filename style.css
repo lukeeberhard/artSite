@@ -1,0 +1,182 @@
+/*
+Lucas Eberhard
+Henry Kang
+Web Programming - CMPSCI 3010
+4/10/18
+*/
+
+html {
+	font-family: Helvetica, Arial, Gotham, "sans-serif";
+	background-color: lightsalmon;
+	
+}
+
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+	padding: 2em;
+	text-shadow:
+     -1.5px -1.5px 0 #000,  
+      1.5px -1.5px 0 #000,
+      -1.5px 1.5px 0 #000,
+       1.5px 1.5px 0 #000;
+}
+
+h2 {
+	color: #FFFFFF;
+	text-align: center;
+	padding: 2em;
+	text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+hr {
+	border-color: #000000;
+	border-style: thin;
+	width: 93%;
+}
+
+body {
+	
+}
+
+body#index a#indnav {background-color: #FF0004;}
+body#gallery a#galnav {background-color: blue;}
+body#game a#gamenav {background-color: #FF00FF;}
+body#registration a#regnav {background-color: gold;}
+body#contact a#connav {background-color:#16DB00;}
+
+div {
+	text-align: center;
+}
+
+article {
+	margin-left: 26%;
+	width: 50%;
+}
+
+.tag {
+	display: inline;
+	width: 30%;
+	float: center;
+	margin-left: 15%;
+	margin-right: 15%;
+}	
+
+img {
+	border-style: groove;
+	border-color: #555555;
+}
+
+#static {
+	margin-left: 38%;
+}
+
+.gal {
+	float: left;
+	width: 30%;
+	height: fixed;
+	margin: 1em 1em 1em 1.2em;
+}
+
+.card {
+	float: center;
+	width: 15%;
+	height: fixed;
+	margin: 4% 4%;
+}
+
+p {
+	text-align: left;
+}
+
+nav {
+	text-align: center;
+	padding: 1.5em;
+}
+
+a:link {
+	color: #555555;
+	text-decoration-line: none;
+	padding: 1em;
+	margin: 0.5em;
+	border: thin;
+	border-style: solid;
+	border-color: #000000;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration-line: none;
+}
+
+a:hover {
+	color: white;
+	font-style: italic;
+	text-decoration-line: underline;
+}
+
+blockquote {
+	text-align: left;
+	margin-left: 42%;
+}
+
+section {
+	text-align: left;
+	margin-left: 11%;
+}
+
+#home {
+	text-align: center;
+	margin-right: 11%;
+}
+
+#in {
+	text-align: right;
+	margin-right: 42%;
+}
+
+#restart {
+	display: none;
+}
+
+.regbuttons {
+	text-align: center;
+	margin-right: 3%;
+}
+
+#conbuttons {
+	text-align: center;
+}
+
+#comment {
+	text-align: right;
+	margin-right: 42%;
+}
+
+#optional {
+	margin-left: 1%;
+	color: lightsalmon;
+}
+
+span.label {
+	margin-left: 1%;
+	color: red;
+}
+
+textarea {
+	text-align: left;
+	margin-left: 29%;
+}
+
+span {
+	margin-left: 27%;
+}
+
+footer {
+	text-align: center;
+	padding-top: 0.5em;
+}
